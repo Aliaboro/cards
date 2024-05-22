@@ -2,7 +2,7 @@ const textOne = document.querySelector("h1");
 const textTwo = document.querySelector("h2");
 const image = document.querySelector("#myImage");
 
-//console.log(textOne, textTwo, image);
+
 
 const buttonOne = document.querySelector("#one");
 const buttonTwo = document.querySelector("#two");
@@ -10,7 +10,7 @@ const buttonThree = document.querySelector("#three");
 const buttonFour = document.querySelector("#four");
 const buttonFive = document.querySelector("#five");
 
-//console.log(buttonOne, buttonTwo, buttonThree, buttonFour, buttonFive);
+
 
 buttonOne.addEventListener("click", pageOne);
 buttonFive.addEventListener("click", pageLast);
