@@ -1,0 +1,142 @@
+.header {
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    color: #d65d3c;
+}
+
+h2 {
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 25px;
+    margin-top: -25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #6c644f;
+}
+
+.image-container, .btn, .link, p {
+    display: flex;
+    justify-content: center;
+}
+
+#one, #two, #three, #four, #five {
+    padding: 20px;
+    background: #d2b37d;
+    color: #61331c;
+    font-family: 'Ysabeau', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#two, #three, #four {
+    display: none;
+}
+
+.link {
+    font-family: 'Ysabeau', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: #d46d4a;
+    padding: 15px;
+    margin-top: 200px;
+}
+p {
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 15px;
+    color: #5d4d36;
+   
+}
+
+
+
+@media all and (max-width: 800px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+    
+    img {
+   width: 300px;
+    }
+    .btn, .link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #one, #two, #three, #four, #five {
+        padding: 15px;
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    } 
+
+}
+
+@media all and (max-width: 500px) {
+   
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: -30px;
+    } 
+ 
+    img {
+        width: 250px;
+    }
+
+     #one, #two, #three, #four, #five {
+        padding: 13px;
+        font-size: 16px;
+    } 
+    .link {
+        margin-top: 220px;
+    }
+    
+}
+
+
+@media all and (max-width: 300px) {
+
+    h1 {
+        font-size: 40px;
+    } 
+
+    h2 {
+        font-size: 15px;
+        margin-top: -35px;
+    } 
+
+    img {
+        width: 200px;
+    }
+         
+    #one, #two, #three, #four, #five {
+        padding: 10px;
+        font-size: 14px;
+    } 
+    
+    .link {
+        font-size: 13px;
+        margin-top: 230px;
+    }
+    
+}
